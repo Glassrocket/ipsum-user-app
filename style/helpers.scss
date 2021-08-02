@@ -1,0 +1,24 @@
+@import "./normalize";
+@import "./variebles";
+
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin flexStart($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flexBetween($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    align-items: center;
+}
+

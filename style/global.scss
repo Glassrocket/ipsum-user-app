@@ -1,0 +1,39 @@
+@import "./normalize";
+@import "./variebles";
+@import "./helpers";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: $fontPrimary;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    @include flexCenter(row);
+    background-color: $bgDark;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+// -------- WRAPPERS ---------
+.main-wrapper {
+    @include flexCenter(column);
+    background-color: $bgMedium;
+    width: 100%;
+    max-width: 480px;
+    height: 100vh;
+    background-image: url("../assets/phone-bg-1.svg");
+    background-position: center;
+    background-size: cover;
+}
+

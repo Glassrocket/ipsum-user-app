@@ -1,0 +1,65 @@
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+@import url(/Users/andrewovcharuk/Documents/Andrew/Git-repos/Ipsum-app-html/style/normalize.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #171C22;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1F262E;
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
+  background-image: url("../assets/phone-bg-1.svg");
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=components.css.map */
